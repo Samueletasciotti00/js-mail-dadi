@@ -13,11 +13,12 @@ document.querySelector('button').addEventListener('click',
     function(){
         //Analisi dell'imput utente
         let user = document.querySelector('input').value;
-
+        
         console.log(user);
 
         if(user == invitati[0]){
             console.log('Sei stato invitato');
+
         } else if (user == invitati[1]) {
             console.log('Sei stato invitato');
         } else if (user == invitati[2]) {
